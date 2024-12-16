@@ -3,7 +3,6 @@ Laboratory Work #4 starter.
 """
 
 # pylint:disable=duplicate-code, too-many-locals, too-many-statements, unused-variable
-from lab_4_retrieval_w_clustering.main import DocumentVectorDB, get_paragraphs, VectorDBSearchEngine
 
 from lab_4_retrieval_w_clustering.main import (
     BM25Vectorizer,
@@ -112,7 +111,6 @@ def main() -> None:
     result = adv_relevant_documents
     assert result, "Result is None"
 
-    assert result, "Result is None"
 
 if __name__ == "__main__":
     main()
